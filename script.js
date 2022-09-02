@@ -1,8 +1,8 @@
 function initMap(){
-      map = new google.maps.Map(document.getElementById('map'),{
-          center: {lat: -27.015952620301757 ,  lng:-48.65920371338841},
-          zoom: 18,
-          mapId: '58c0ff714c3fb445'
+    map = new google.maps.Map(document.getElementById('map'),{
+        center: {lat: -27.015952620301757 ,  lng:-48.65920371338841},
+        zoom: 18,
+        mapId: '58c0ff714c3fb445'
 	});
 
 	// Name
