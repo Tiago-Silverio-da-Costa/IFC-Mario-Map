@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\silve\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add typescript @types/node @types/react @types/react-dom @types/jest
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\silve\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;C:\flutter\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\silve\AppData\Roaming\npm\node_modules\yarn;C:\Users\silve\AppData\Roaming\npm\node_modules\yarn\bin;C:\ProgramData\chocolatey\bin;C:\tools\dart-sdk\bin;C:\Users\silve\AppData\Roaming\Pub\Cache\bin;C:\src\flutter\bin;C:\Program Files\dotnet\;C:\Users\silve\AppData\Roaming\npm\tsc.ps1;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\silve\AppData\Local\Microsoft\WindowsApps;;C:\Users\silve\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\silve\AppData\Roaming\npm;C:\tools\dart-sdk\bin;C:\Users\silve\AppData\Roaming\Pub\Cache\bin;C:\Users\silve\.dotnet\tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.4.0.tgz: Request failed "502 Bad Gateway"
+      at ResponseError.ExtendableBuiltin (C:\Users\silve\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Users\silve\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Users\silve\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66215:16)
+      at Request.emit (node:events:527:28)
+      at Request.module.exports.Request.onRequestResponse (C:\Users\silve\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141767:10)
+      at ClientRequest.emit (node:events:527:28)
+      at HTTPParser.parserOnIncomingClient (node:_http_client:631:27)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+      at TLSSocket.socketOnData (node:_http_client:494:22)
+      at TLSSocket.emit (node:events:527:28)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "@googlemaps/js-api-loader": "^1.14.3",
+      "@types/typescript": "^2.0.0",
+      "awesome-typescript-loader": "^5.2.1",
+      "source-map-loader": "^4.0.0",
+      "tsc": "^2.0.4",
+      "yarn": "^1.22.19"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

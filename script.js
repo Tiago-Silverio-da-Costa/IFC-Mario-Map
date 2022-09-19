@@ -23,7 +23,7 @@ function initMap(){
       // decoration 
 			'You Are Here',
 			-27.016663380630508,
-      -48.660650875282684,
+			-48.660650875282684,
 			'pipe.svg',
 			30,
 			47.8,
